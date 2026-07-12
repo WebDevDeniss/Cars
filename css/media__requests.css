@@ -18,7 +18,7 @@
 
 } */
 
-@media (max-width: 430px) {
+@media (max-width: 390px) {
   .mobile-menu {
     width: 0%;
     transition: width 1s ease-in-out;
@@ -281,12 +281,14 @@
     width: 100%;
     /* height: 300px; */
     display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
     flex-direction: column;
-
-    justify-content: space-between;
   }
 
   .wrapper__card__fast__easy .card__fast__easy {
+    width: 90%;
     margin-bottom: 20px;
   }
 
